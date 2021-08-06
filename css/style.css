@@ -45,7 +45,7 @@ nav {
     margin-top: 42px;
 }
 
-.bar-icon{
+.bar-icon {
     display: none;
 }
 
@@ -319,7 +319,7 @@ footer {
         display: none;
     }
 
-    .btn-decoration{
+    .btn-decoration {
         padding: 5px 8px;
         letter-spacing: 1px;
     }
@@ -333,12 +333,11 @@ footer {
     }
 
     .banner {
-        width: 100%;
         grid-row-gap: 80px;
     }
 
     .banner-details {
-        margin-right: 66px;
+        margin-right: 50px;
     }
 
     .banner-details h2 {
@@ -346,8 +345,8 @@ footer {
     }
 
     .banner-img img {
-        width: 300px;
-        height: 280px;
+        width: 200px;
+        height: 150px;
     }
 
     .players-details {
@@ -405,12 +404,12 @@ footer {
 }
 
 /* ----------------- Tablet Device -------------------- */
-@media only screen and (min-width: 688px) and (max-width:992px){
-    .common-container{
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .common-container {
         width: 80%;
     }
 
-    .bar-icon{
+    .bar-icon {
         display: block;
         text-decoration: none;
         color: white;
@@ -418,15 +417,15 @@ footer {
         margin-left: 75px;
     }
 
-    .nav-items{
+    .nav-items {
         display: none;
     }
 
-    .btn-decoration{
+    .btn-decoration {
         padding: 5px 12px;
         letter-spacing: 1px;
     }
-    
+
 
     .banner,
     .players-details,
@@ -459,23 +458,23 @@ footer {
         width: 100%;
     }
 
-    .highlights-copa-amrica{
+    .highlights-copa-amrica {
         grid-column-gap: 20px;
     }
 
-    .copa-amrica-title{
+    .copa-amrica-title {
         font-size: 15px;
     }
 
-    .copa-amrica-description{
+    .copa-amrica-description {
         font-size: 10px;
     }
 
-    .copa-amrica-img{
+    .copa-amrica-img {
         margin-left: 60px;
     }
 
-    .copa-amrica-img img{
+    .copa-amrica-img img {
         width: 350px;
         height: 250px;
     }
@@ -488,7 +487,7 @@ footer {
         grid-row-gap: 29px;
     }
 
-    .footer-img img{
+    .footer-img img {
         width: 100%;
     }
 
