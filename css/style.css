@@ -45,6 +45,10 @@ nav {
     margin-top: 42px;
 }
 
+.bar-icon{
+    display: none;
+}
+
 .nav-link {
     list-style: none;
     margin-left: 36px;
@@ -120,7 +124,7 @@ nav {
 }
 
 .players-biography {
-    box-shadow: 1px 2px 10px #dadadd;
+    box-shadow: 1px 2px 15px #dadadd;
     padding: 15px;
 
 }
@@ -246,7 +250,7 @@ nav {
 }
 
 .club-detail {
-    box-shadow: 1px 2px 10px #dadadd;
+    box-shadow: 1px 2px 15px #dadadd;
     padding: 30px;
 }
 
@@ -313,6 +317,11 @@ footer {
 
     .navbar {
         display: none;
+    }
+
+    .btn-decoration{
+        padding: 5px 8px;
+        letter-spacing: 1px;
     }
 
     .banner,
@@ -397,4 +406,86 @@ footer {
     .footer-img img {
         width: 330px;
     }
+}
+
+/* ----------------- Tablet Device -------------------- */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .common-container{
+        width: 70%;
+    }
+
+    .bar-icon{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 35px;
+        margin-left: 75px;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .btn-decoration{
+        padding: 5px 12px;
+        letter-spacing: 1px;
+    }
+    
+
+    .banner,
+    .players-details,
+    .highlights-copa-amrica,
+    .extra-players,
+    .different-clubs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        width: 100%;
+        grid-column-gap: 80px;
+    }
+
+    .banner-details,
+    .banner-img {
+        margin-top: 50px;
+    }
+
+    .banner-details h2 {
+        font-size: 35px;
+    }
+
+    .banner-img img {
+        width: 350px;
+        height: 280px;
+    }
+
+    .highlights-copa-amrica{
+        grid-column-gap: 20px;
+    }
+
+    .copa-amrica-title{
+        font-size: 15px;
+    }
+
+    .copa-amrica-description{
+        font-size: 10px;
+    }
+
+    .copa-amrica-img{
+        margin-left: 60px;
+    }
+
+    .copa-amrica-img img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .extra-players {
+        grid-row-gap: 70px;
+    }
+
+    .different-clubs {
+        grid-row-gap: 29px;
+    }
+
 }
