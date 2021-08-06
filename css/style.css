@@ -1,7 +1,7 @@
-/* Google Font */
+/*------------------- Google Font -----------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common style */
+/*------------------- common style ----------------------*/
 
 body {
     margin: 0;
@@ -16,16 +16,14 @@ main {
     align-items: center;
 }
 
-.container {
+.common-container {
     width: 1050px;
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
 }
 
-/*------------------
- header style 
- ------------------*/
+/*------------------ header style ------------------*/
 
 header {
     background-color: #2D25A0;
@@ -34,9 +32,7 @@ header {
 
 }
 
-/*-------------------
- navbar style 
- --------------------*/
+/*------------------- navbar style --------------------*/
 
 nav {
     display: grid;
@@ -49,16 +45,10 @@ nav {
     margin-top: 42px;
 }
 
-.bar-icon {
-    display: none;
-}
-
-.nav-link,
-.bar-icon {
+.nav-link {
     list-style: none;
     margin-left: 36px;
 }
-
 
 .nav-link a {
     text-decoration: none;
@@ -84,9 +74,7 @@ nav {
     letter-spacing: 3px;
 }
 
-/*-------------------
- banner style 
- --------------------*/
+/*------------------- banner style --------------------*/
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -118,9 +106,7 @@ nav {
     transform: rotateY(180deg);
 }
 
-/*------------------------
- football players details 
- ------------------------*/
+/*------------------- football players details ---------------------*/
 
 .football-players {
     margin-top: 70px;
@@ -154,9 +140,7 @@ nav {
     color: #6C6C6C;
 }
 
-/*------------------
- Optional Part 
- ------------------*/
+/*------------------ Optional Part ------------------*/
 
 .optional-part {
     margin: 50px 0px;
@@ -186,10 +170,10 @@ nav {
 }
 
 /*--------------------
- extra section style
- ----------------------*/
+ extra section style 
+ ---------------------*/
 
-/* extra players */
+/*-------------------- extra players ------------------*/
 
 .extra-part-title {
     font-size: 28px;
@@ -248,7 +232,7 @@ nav {
     height: 220px;
 }
 
-/* clubs section */
+/*----------------- clubs section -------------------*/
 
 .extra-part-2 {
     margin-top: 10px;
@@ -258,7 +242,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 25px;
-   
+
 }
 
 .club-detail {
@@ -282,7 +266,7 @@ nav {
     color: #6C6C6C;
 }
 
-/* footer part */
+/*------------------- footer part -----------------------*/
 
 footer {
     margin: 80px;
@@ -320,10 +304,10 @@ footer {
  Media Queries 
  -------------------*/
 
-/* Mobile Devices */
+/*------------------- Mobile Devices ----------------------*/
 
 @media only screen and (max-width: 688px) {
-    .container {
+    .common-container {
         width: 80%;
     }
 
@@ -331,11 +315,11 @@ footer {
         display: none;
     }
 
-    .banner, 
+    .banner,
     .players-details,
     .highlights-copa-amrica,
     .extra-players,
-    .different-clubs{
+    .different-clubs {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -393,24 +377,24 @@ footer {
         height: 250px;
     }
 
-    .extra-players{
+    .extra-players {
         grid-row-gap: 120px;
     }
 
-    .extra-players-detail{
+    .extra-players-detail {
         width: 365px;
     }
 
-    .extra-players-detail:hover .player-detail{
+    .extra-players-detail:hover .player-detail {
         width: 365px;
         height: 263px;
     }
 
-    .different-clubs{
+    .different-clubs {
         grid-row-gap: 29px;
     }
 
-    .footer-img img{
+    .footer-img img {
         width: 330px;
     }
 }
