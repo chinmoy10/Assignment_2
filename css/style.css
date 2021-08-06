@@ -342,16 +342,16 @@ footer {
     }
 
     .banner-details h2 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .banner-img {
-        margin-left: 100px;
+        margin-left: 10px;
     }
 
     .banner-img img {
-        width: 329px;
-        height: 259.17px;
+        width: 410px;
+        height: 310px;
     }
 
     .players-details {
@@ -382,20 +382,20 @@ footer {
     }
 
     .copa-amrica-img img {
-        width: 365px;
-        height: 250px;
+        width: 315px;
+        height: 230px;
     }
 
     .extra-players {
-        grid-row-gap: 120px;
+        grid-row-gap: 80px;
     }
 
     .extra-players-detail {
-        width: 365px;
+        width: 315px;
     }
 
     .extra-players-detail:hover .player-detail {
-        width: 365px;
+        width: 315px;
         height: 263px;
     }
 
@@ -404,14 +404,14 @@ footer {
     }
 
     .footer-img img {
-        width: 330px;
+        width: 100%;
     }
 }
 
 /* ----------------- Tablet Device -------------------- */
 @media only screen and (min-width: 688px) and (max-width:992px){
     .common-container{
-        width: 70%;
+        width: 80%;
     }
 
     .bar-icon{
@@ -459,6 +459,10 @@ footer {
         height: 280px;
     }
 
+    .player img {
+        width: 100%;
+    }
+
     .highlights-copa-amrica{
         grid-column-gap: 20px;
     }
@@ -486,6 +490,10 @@ footer {
 
     .different-clubs {
         grid-row-gap: 29px;
+    }
+
+    .footer-img img{
+        width: 100%;
     }
 
 }
